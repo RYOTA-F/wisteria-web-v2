@@ -1,16 +1,7 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Header } from '@/app/components/Header/Header'
+import { Footer } from '@/app/components/Footer/Footer'
 import './globals.css'
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   title: 'Wisteria Web',
@@ -24,8 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${geistSans.variable} ${geistMono.variable} `}>
+      <body className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
