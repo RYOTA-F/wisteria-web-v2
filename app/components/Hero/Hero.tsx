@@ -11,7 +11,7 @@ export function Hero() {
         <Title />
         <div className="flex justify-center gap-4 pt-20">
           <a
-            href="#career"
+            href="/career"
             className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
           >
             Career

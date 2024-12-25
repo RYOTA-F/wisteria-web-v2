@@ -3,27 +3,27 @@ import { BlogCard } from '@/app/components/BlogCard/BlogCard'
 const blogs = [
   {
     title: 'devguil-2022-0625',
-    image: '/devguil-2022-0625.webp',
+    image: '/images/devguil-2022-0625.webp',
   },
   {
     title: 'rds-proxy',
-    image: '/rds-proxy.webp',
+    image: '/images/rds-proxy.webp',
   },
   {
     title: 'react-type-guard',
-    image: '/react-type-guard.webp',
+    image: '/images/react-type-guard.webp',
   },
   {
     title: 'go-zip',
-    image: '/go-zip.webp',
+    image: '/images/go-zip.webp',
   },
   {
     title: 'tslab-regular-10',
-    image: '/tslab-regular-10.webp',
+    image: '/images/tslab-regular-10.webp',
   },
   {
     title: 'add-swagger',
-    image: '/add-swagger.webp',
+    image: '/images/add-swagger.webp',
   },
 ]
 

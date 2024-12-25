@@ -4,11 +4,11 @@ import { SlideCard } from '@/app/components/SlideCard/SlideCart'
 const documents = [
   {
     title: 'Web技術でデスクトップアプリ!!?',
-    image: '/web_skill_electron.webp',
+    image: '/images/web_skill_electron.webp',
   },
   {
     title: 'ブロックチェーンを活用した\nスキル証明技術',
-    image: '/blockcerts.webp',
+    image: '/images/blockcerts.webp',
   },
 ]
 
