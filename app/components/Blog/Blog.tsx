@@ -4,26 +4,32 @@ const blogs = [
   {
     title: 'devguil-2022-0625',
     image: '/images/devguil-2022-0625.webp',
+    url: 'https://www.kosotudev.com/articles/devguil-2022-0625',
   },
   {
     title: 'rds-proxy',
     image: '/images/rds-proxy.webp',
+    url: 'https://www.kosotudev.com/articles/aws-rds',
   },
   {
     title: 'react-type-guard',
     image: '/images/react-type-guard.webp',
+    url: 'https://www.kosotudev.com/articles/react-type-guard',
   },
   {
     title: 'go-zip',
     image: '/images/go-zip.webp',
+    url: 'https://www.kosotudev.com/articles/go-zip',
   },
   {
     title: 'tslab-regular-10',
     image: '/images/tslab-regular-10.webp',
+    url: 'https://www.kosotudev.com/articles/tslab-regular-10',
   },
   {
     title: 'add-swagger',
     image: '/images/add-swagger.webp',
+    url: 'https://www.kosotudev.com/articles/add-swagger',
   },
 ]
 
