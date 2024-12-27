@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900/95 to-purple-900/20" />
       <InteractiveBackground />
-      <div className="relative max-w-7xl mx-auto pt-[15%] px-4 sm:px-6 lg:px-8 text-center z-10">
+      <div className="relative max-w-7xl mx-auto pt-[45%] sm:pt-[15%] px-4 text-center z-10">
         <Title />
         <div className="flex justify-center gap-4 pt-20">
           <Link

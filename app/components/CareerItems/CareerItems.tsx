@@ -18,7 +18,7 @@ export function CareerItems({ yearItems }: CareerItemsProps) {
       {yearItems.map((item, itemIndex) => (
         <li
           key={itemIndex}
-          className="relative flex items-center ml-[calc(13%+10px)] [&:not(:first-child)]:mt-6"
+          className="relative flex items-center ml-[calc(18%-3.5px)] sm:ml-[calc(15%-3.5px)] [&:not(:first-child)]:mt-6"
         >
           <div className="absolute top-2.5 h-2.5 w-2.5 rounded-full bg-[#427bbf]" />
           <div className="ml-8">
