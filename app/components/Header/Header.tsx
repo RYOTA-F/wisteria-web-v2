@@ -19,6 +19,7 @@ export function Header() {
               href="/"
               className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text"
             >
+              {/* eslint-disable react/no-unescaped-entities */}
               RYOTA's Portfolio
             </Link>
           </div>
