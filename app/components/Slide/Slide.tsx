@@ -21,8 +21,7 @@ export function Slide() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">Slide</h2>
           <p className="text-slate-300 max-w-2xl mx-auto">
-            We offer a comprehensive range of web development and designservices
-            to help your business succeed in the digital world.
+            Presentation materials from past technical conferences and meetups.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">

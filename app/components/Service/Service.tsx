@@ -1,10 +1,10 @@
-import { Code2, Blocks, Sparkles } from 'lucide-react'
+import { Code2, Blocks, ShoppingCart } from 'lucide-react'
 
 const services = [
   {
     icon: <Blocks className="w-8 h-8 text-blue-400" />,
     title: 'Web Application Development',
-    description: 'Web applications built with modern technologies.',
+    description: 'Modern tech driven web apps.',
   },
   {
     icon: <Code2 className="w-8 h-8 text-purple-400" />,
@@ -12,7 +12,7 @@ const services = [
     description: 'Build high-speed websites at low cost.',
   },
   {
-    icon: <Sparkles className="w-8 h-8 text-purple-400" />,
+    icon: <ShoppingCart className="w-8 h-8 text-purple-400" />,
     title: 'EC Store Construction',
     description: 'Build an e-commerce store using Shopify.',
   },
@@ -25,7 +25,8 @@ export function Service() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">Service</h2>
           <p className="text-slate-300 mx-auto">
-            Webサイト制作からアプリケーション開発まで、お客様のビジネスの成長をトータルでサポートいたします。
+            From website development to application development, we provide
+            total support for your business growth.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

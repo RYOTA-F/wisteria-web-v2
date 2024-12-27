@@ -6,8 +6,8 @@ export function Header() {
     { key: 'Service', href: '/#service' },
     { key: 'Slide', href: '/#slide' },
     { key: 'Blog', href: '/#blog' },
-    { key: 'Career', href: '/career' },
     { key: 'Skill', href: '/skill' },
+    { key: 'Career', href: '/career' },
   ]
 
   return (
