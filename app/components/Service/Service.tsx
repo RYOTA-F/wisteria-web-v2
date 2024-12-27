@@ -2,12 +2,12 @@ import { Code2, Blocks, Sparkles } from 'lucide-react'
 
 const services = [
   {
-    icon: <Code2 className="w-8 h-8 text-purple-400" />,
+    icon: <Blocks className="w-8 h-8 text-blue-400" />,
     title: 'Web Application Development',
     description: 'Web applications built with modern technologies.',
   },
   {
-    icon: <Blocks className="w-8 h-8 text-blue-400" />,
+    icon: <Code2 className="w-8 h-8 text-purple-400" />,
     title: 'Web Site Construction',
     description: 'Build high-speed websites at low cost.',
   },
@@ -24,9 +24,8 @@ export function Service() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">Service</h2>
-          <p className="text-slate-300 max-w-2xl mx-auto">
-            We offer a comprehensive range of web development and designservices
-            to help your business succeed in the digital world.
+          <p className="text-slate-300 mx-auto">
+            Webサイト制作からアプリケーション開発まで、お客様のビジネスの成長をトータルでサポートいたします。
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

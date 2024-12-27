@@ -19,14 +19,17 @@ interface CareerYearsProps {
 export function CareerYears({ items }: CareerYearsProps) {
   return (
     <>
-      {items.map((yearGroup, yearIndex) => (
-        <div key={yearIndex}>
-          <span className="font-bold ml-1 text-2xl">{yearGroup.YEAR}</span>
-          <ul>
-            <CareerItems yearItems={yearGroup.YEAR_ITEMS} />
-          </ul>
-        </div>
-      ))}
+      <div className="relative mx-auto max-w-2xl mt-24 w-full pb-[60px] pt-5 text-left px-0">
+        <div className="absolute top-0 h-full w-[3px] bg-[#427bbf] left-[15%]" />
+        {items.map((yearGroup, yearIndex) => (
+          <div key={yearIndex}>
+            <span className="font-bold ml-1 text-2xl">{yearGroup.YEAR}</span>
+            <ul>
+              <CareerItems yearItems={yearGroup.YEAR_ITEMS} />
+            </ul>
+          </div>
+        ))}
+      </div>
     </>
   )
 }

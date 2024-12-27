@@ -40,8 +40,7 @@ export function Blog() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">Blog</h2>
           <p className="text-slate-300 max-w-2xl mx-auto">
-            We offer a comprehensive range of web development and designservices
-            to help your business succeed in the digital world.
+            技術記事やプログラミングのTips、開発者向けの知見を定期的に発信しています。
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -5,10 +5,12 @@ const documents = [
   {
     title: 'Web技術でデスクトップアプリ!!?',
     image: '/images/web_skill_electron.webp',
+    url: 'https://speakerdeck.com/weberyota/webji-shu-de-desukutotupuapuri-electron-nosusume',
   },
   {
     title: 'ブロックチェーンを活用した\nスキル証明技術',
     image: '/images/blockcerts.webp',
+    url: 'https://speakerdeck.com/weberyota/hurotukutienwohuo-yong-sitasukiruzheng-ming-ji-shu',
   },
 ]
 

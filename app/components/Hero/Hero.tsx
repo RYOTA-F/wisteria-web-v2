@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ChevronDown } from 'lucide-react'
 import { InteractiveBackground } from '@/app/components/InteractiveBackground/InteractiveBackground'
 import { Title } from '@/app/components/Title/Title'
@@ -10,22 +11,22 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto pt-[15%] px-4 sm:px-6 lg:px-8 text-center z-10">
         <Title />
         <div className="flex justify-center gap-4 pt-20">
-          <a
+          <Link
             href="/career"
             className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
           >
             Career
-          </a>
-          <a
+          </Link>
+          <Link
             href="#skills"
             className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
           >
             Skill
-          </a>
+          </Link>
         </div>
-        <div className="mt-16 animate-bounce">
+        <Link href="/#service" className="mt-16 animate-bounce block">
           <ChevronDown className="mx-auto text-white/50" size={32} />
-        </div>
+        </Link>
       </div>
     </section>
   )
