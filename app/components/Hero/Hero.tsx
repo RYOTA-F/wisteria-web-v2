@@ -12,16 +12,16 @@ export function Hero() {
         <Title />
         <div className="flex justify-center gap-4 pt-20">
           <Link
-            href="/career"
-            className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
-          >
-            Career
-          </Link>
-          <Link
-            href="#skills"
-            className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
+            href="/skill"
+            className="w-[100px] py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
           >
             Skill
+          </Link>
+          <Link
+            href="/career"
+            className="w-[100px] py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-all hover:scale-105"
+          >
+            Career
           </Link>
         </div>
         <Link href="/#service" className="mt-16 animate-bounce block">

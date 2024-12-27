@@ -4,8 +4,8 @@ import { InteractiveBackground } from '../InteractiveBackground/InteractiveBackg
 
 export function CareerTimeline() {
   return (
-    <section id="career" className="pb-20 text-white min-h-screen">
-      <div className="fixed inset-0 h-screen w-full">
+    <section id="career" className="text-white min-h-screen">
+      <div className="fixed inset-0 h-screen w-full -z-10">
         <InteractiveBackground />
       </div>
       <CareerYears items={CAREER.ITEMS} />
